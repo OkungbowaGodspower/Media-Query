@@ -93,12 +93,13 @@ form{
     color: hsl(0, 100%, 74%);
  }
 
- @media screen and (max-width: 375px){
+ @media(max-width: 375px){
     .container{
-        width: 75%;
+        width: 100%;
         background-image: url(images/bg-intro-mobile.png);
         display: flex;
         flex-wrap: wrap;
+        padding: 0 0 0 50px;
     }
     .text{
         margin-left: 0%;
@@ -150,11 +151,29 @@ form{
         margin-left: 12px;
         margin-right: 12px;
         color: gray;
+        margin-top: -10px;
      }
      .note span{
         color: hsl(0, 100%, 74%);
      }
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
