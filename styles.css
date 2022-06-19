@@ -99,7 +99,7 @@ form{
         background-image: url(images/bg-intro-mobile.png);
         display: flex;
         flex-wrap: wrap;
-        padding: 0 0 0 55px;
+        padding: 0 0 0 50px;
     }
     .text{
         margin-left: 0%;
